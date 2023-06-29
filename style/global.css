@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.title {
+  font-family: pacifico;
+}
+
+.header {
+  width: 100%;
+  /*background-color: bisque;*/
+  padding: 1rem;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.slider_img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 100px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 100px;
+}

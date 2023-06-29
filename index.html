@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--style sheet-->
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/mobile.css" />
+    <link rel="stylesheet" href="style/desktop.css" />
+    <!--Iconos-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Anthony Laverde</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="headerContainer">
+        <div class="logo">
+          <h2 class="title">Anthony Laverde</h2>
+        </div>
+
+        <nav class="nav">
+          <ul>
+            <li><a class="active" href="#aboutme">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="btnToggle" id="toggle"></div>
+      </div>
+      <div class="overlay hidden"></div>
+      <div class="navToggle">
+        <ul class="navToggle_menu hidden">
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="slider backgraund" id="aboutme">
+        <div class="container_slider container">
+          <i class="bx bx-left-arrow-alt arrow_before arrow" id="before"></i>
+          <section class="slider_body slider_body--show" data-id="1">
+            <div class="flex">
+              <figure class="slider_picture">
+                <img
+                  class="slider_img"
+                  src="image/WhatsApp Image 2023-06-27 at 4.32.13 PM.jpeg"
+                  alt="me"
+                />
+              </figure>
+              <div class="slider_text">
+                <h2 class="subtitle">Anthony Laverde</h2>
+                <p class="slider_review">
+                  Hello, I am Anthony Laverde. Currently, I am engaged in
+                  self-directed study with the strong purpose of mastering the
+                  key technologies in full-stack development. I consider
+                  perseverance to be one of my main qualities as I am committed
+                  to continuously acquiring knowledge and overcoming challenges
+                  along the way. As I progress in my self-directed journey, I
+                  have invested time and effort in gaining a deep understanding
+                  of both frontend and backend development. I have become
+                  familiar with programming languages such as JavaScript and
+                  PHP. Additionally, I have explored databases and related
+                  concepts.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="slider_body" data-id="2">
+            <div class="formation">
+              <figure class="slider_picture">
+                <img class="slider_img" src="image/uc.png" alt="me" />
+              </figure>
+              <div class="slider_text">
+                <h2 class="subtitle">Mi formacion</h2>
+
+                <p class="slider_review">
+                  I am a graduate in Clinical Biochemistry with a strong
+                  background in health sciences. However, my restlessness and
+                  curiosity have led me to explore the exciting world of
+                  programming in a self-taught way. In order to strengthen my
+                  skills, I decided to embark on a programming diploma at the
+                  prestigious National Technological University. During the
+                  course of this diploma, I have gained fundamental knowledge in
+                  various web technologies, including HTML, CSS, JavaScript and
+                  PHP MySQL. I have spent time and effort to fully understand
+                  these languages and tools
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <i class="bx bx-right-arrow-alt arrow_netx arrow" id="next"></i>
+        </div>
+        <a
+          href="file/CV Anthony Laverde 2.0 (1) (2) (1).pdf"
+          download
+          target="_blank"
+        >
+          <button class="cv">Descargar CV</button>
+        </a>
+      </section>
+
+      <section class="skills-section" id="skills">
+        <h2>my Skills</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <h3>HTML</h3>
+            <i class="bx bxl-html5"></i>
+            <p>
+              I learned the basic structure of an HTML document, including the
+              DOCTYPE declaration, and its main tags to organize the content
+              efficiently.
+            </p>
+          </div>
+
+          <div class="grid-item">
+            <h3>CSS</h3>
+            <i class="bx bxl-css3"></i>
+            <p>
+              In the course of my training I have worked and they reinforced me
+              with the main concepts of css, having covered the applicability of
+              flex box and grid. I used more advanced CSS properties like
+              display, position, box-sizing, transform, Transition to control
+              the presentation and layout of the elements. I implemented
+              responsive design techniques, such as media queries, to adapt the
+              appearance of the page to different screen sizes.
+            </p>
+          </div>
+
+          <div class="grid-item">
+            <h3>Javascript</h3>
+            <i class="bx bxl-javascript"></i>
+            <p>
+              I learned the basic concepts of JavaScript, such as variables,
+              data types, operators, and control structures. I used JavaScript
+              to manipulate HTML content and respond to user events. I learned
+              how to use functions to encapsulate reusable and modular code. I
+              explored the DOM and learned how to access and modify HTML
+              elements using JavaScript. I also interacted with forms, validated
+              data, and sent information.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="repository" id="contact">
+        <div class="elementsRepository">
+          <h2 class="title_repository">My first repository</h2>
+
+          <div class="repository_grid">
+            <div class="repositoryText_grid">
+              <p>In this brief repository, you can see my first web designs</p>
+            </div>
+            <div class="flex_repo">
+              <div class="containerShow_repository">
+                <div id="repo-container">
+                  <h2 id="repo-name">First Proyect</h2>
+                  <img
+                    class="imgRepo"
+                    id="repo-image"
+                    src="image/image_landingpage.png"
+                    alt="Vista previa del proyecto"
+                  />
+                  <p id="repo-description"></p>
+                  <a id="repo-link" href="#" target="_blank">Ver repositorio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Contact me</h2>
+        <div class="contenedor-contact">
+          <a href="https://github.com/Anthonylaverde25" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://twitter.com/Anthonylaverd" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/anthonylaverde/?locale=es_LA"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2023 Anthony Laverde. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
